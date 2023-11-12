@@ -7,9 +7,7 @@ function PageWrapper() {
     <>
     <Header />
     <main>
-        {/* <MainPage {...prop} /> */}
-        {/* <BuyPage {...prop} /> */}
-        <Outlet />
+      <Outlet />
     </main>
     <Footer />
     </>
